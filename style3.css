@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f0ff;
+}
+
+h1 {
+    text-align: center;
+    color: #8e5ab5;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* KOTAK DAFTAR MAKANAN & MINUMAN */
+.kategori {
+    width: 380px;
+    min-height: 300px;
+    padding: 25px;
+    background-color: white;
+
+    /* INI YANG BIKIN KOTAK KELIHATAN */
+    border: 5px solid #8e5ab5;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* JUDUL DALAM KOTAK */
+.kategori h2 {
+    text-align: center;
+    margin-top: 0;
+    padding: 12px;
+    background-color: #eadcf5;
+    color: #76508e;
+    border-radius: 12px;
+}
+
+/* TOMBOL KLIK */
+summary {
+    width: 80px;
+    margin: 25px auto;
+    padding: 12px;
+
+    text-align: center;
+    background-color: #8e5ab5;
+    color: white;
+
+    border-radius: 10px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+}
+
+/* KOTAK MENU YANG MUNCUL */
+.isi-menu {
+    margin-top: 20px;
+    padding: 15px;
+
+    background-color: #f3e8fa;
+    border: 3px solid #c49bdd;
+    border-radius: 15px;
+}
+
+/* NAMA + HARGA */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 12px;
+    margin-bottom: 8px;
+
+    background-color: white;
+    border-radius: 8px;
+
+    font-weight: bold;
+}
