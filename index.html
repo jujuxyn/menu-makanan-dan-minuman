@@ -3,87 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Makanan</title>
-    <link rel="stylesheet"
-    href="style3.css"
-    <-- Hubungkan ke CSS -->
-    <link rel="stylesheet" href="style.css">
+
+    <title>Menu Makanan & Minuman</title>
+
+    <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
 
-    <h1>MENU MAKANAN</h1>
+    <!-- PEMBUKA -->
+    <section class="hero">
+        <p class="small-title">WELCOME TO OUR MENU</p>
 
-    <div class="container">
+        <h1>
+            MENU<br>
+            <span>MAKANAN & MINUMAN</span>
+        </h1>
 
-        <!-- KOTAK MAKANAN -->
-        <div class="kategori">
-            <h2>Daftar Makanan</h2>
+        <p class="description">
+            Pilihan makanan dan minuman yang siap
+            menemani hari kamu.
+        </p>
 
-            <details>
-                <summary>KLIK</summary>
+        <a href="#menu" class="button">Lihat Menu ↓</a>
+    </section>
 
-                <div class="isi-menu">
 
-                    <div class="menu-item">
-                        <span>Nasi Goreng</span>
-                        <span>Rp15.000</span>
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+
+        <p class="small-title">OUR MENU</p>
+
+        <h2>Daftar Menu</h2>
+
+        <div class="menu-container">
+
+            <!-- MAKANAN -->
+            <div class="menu-box makanan">
+
+                <h3>🍔 Daftar Makanan</h3>
+
+                <details>
+                    <summary>KLIK UNTUK MELIHAT MENU</summary>
+
+                    <div class="menu-list">
+
+                        <div class="menu-item">
+                            <span>Nasi Goreng</span>
+                            <b>Rp15.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Ayam Geprek</span>
+                            <b>Rp18.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Mie Goreng</span>
+                            <b>Rp12.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Chicken Katsu</span>
+                            <b>Rp20.000</b>
+                        </div>
+
                     </div>
+                </details>
 
-                    <div class="menu-item">
-                        <span>Ayam Geprek</span>
-                        <span>Rp18.000</span>
+            </div>
+
+
+            <!-- MINUMAN -->
+            <div class="menu-box minuman">
+
+                <h3>🥤 Daftar Minuman</h3>
+
+                <details>
+                    <summary>KLIK UNTUK MELIHAT MENU</summary>
+
+                    <div class="menu-list">
+
+                        <div class="menu-item">
+                            <span>Es Teh</span>
+                            <b>Rp5.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Es Jeruk</span>
+                            <b>Rp7.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Matcha Latte</span>
+                            <b>Rp15.000</b>
+                        </div>
+
+                        <div class="menu-item">
+                            <span>Cokelat</span>
+                            <b>Rp12.000</b>
+                        </div>
+
                     </div>
+                </details>
 
-                    <div class="menu-item">
-                        <span>Mie Goreng</span>
-                        <span>Rp12.000</span>
-                    </div>
+            </div>
 
-                    <div class="menu-item">
-                        <span>Chicken Katsu</span>
-                        <span>Rp20.000</span>
-                    </div>
-
-                </div>
-            </details>
         </div>
 
+    </section>
 
-        <!-- KOTAK MINUMAN -->
-        <div class="kategori">
-            <h2>Daftar Minuman</h2>
 
-            <details>
-                <summary>KLIK</summary>
+    <!-- BAGIAN TENGAH -->
+    <section class="info-section">
 
-                <div class="isi-menu">
+        <p class="small-title">ENJOY YOUR MEAL</p>
 
-                    <div class="menu-item">
-                        <span>Es Teh</span>
-                        <span>Rp5.000</span>
-                    </div>
+        <h2>
+            Makan enak,<br>
+            <span>mood enak.</span>
+        </h2>
 
-                    <div class="menu-item">
-                        <span>Es Jeruk</span>
-                        <span>Rp7.000</span>
-                    </div>
+        <p>
+            Pilih makanan favorit kamu dan jangan lupa
+            pilih minuman yang cocok untuk menemani.
+        </p>
 
-                    <div class="menu-item">
-                        <span>Matcha Latte</span>
-                        <span>Rp15.000</span>
-                    </div>
+    </section>
 
-                    <div class="menu-item">
-                        <span>Cokelat</span>
-                        <span>Rp12.000</span>
-                    </div>
 
-                </div>
-            </details>
-        </div>
+    <!-- PENUTUP -->
+    <section class="footer">
 
-    </div>
+        <p class="small-title">THANK YOU ♡</p>
+
+        <h2>Selamat Menikmati!</h2>
+
+        <p>
+            Terima kasih sudah mengunjungi menu kami.
+        </p>
+
+        <a href="#" class="back">Back to top ↑</a>
+
+        <footer>
+            © 2026 — MENU MAKANAN & MINUMAN
+        </footer>
+
+    </section>
 
 </body>
 </html>
