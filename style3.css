@@ -3,80 +3,109 @@ body {
     padding: 40px;
     font-family: Arial, sans-serif;
     background-color: #f7f0ff;
+    color: #333;
 }
 
 h1 {
     text-align: center;
     color: #8e5ab5;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    font-size: 45px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    align-items: flex-start;
+    gap: 40px;
 }
 
-/* KOTAK DAFTAR MAKANAN & MINUMAN */
+/* KOTAK MAKANAN & MINUMAN */
 .kategori {
-    width: 380px;
-    min-height: 300px;
+    width: 400px;
     padding: 25px;
     background-color: white;
-
-    /* INI YANG BIKIN KOTAK KELIHATAN */
-    border: 5px solid #8e5ab5;
+    border: 4px solid #8e5ab5;
     border-radius: 20px;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
-/* JUDUL DALAM KOTAK */
+/* JUDUL */
 .kategori h2 {
     text-align: center;
-    margin-top: 0;
-    padding: 12px;
+    margin: 0 0 25px 0;
+    padding: 15px;
     background-color: #eadcf5;
     color: #76508e;
     border-radius: 12px;
 }
 
-/* TOMBOL KLIK */
+/* TOMBOL */
 summary {
     width: 80px;
-    margin: 25px auto;
+    margin: 20px auto;
     padding: 12px;
-
     text-align: center;
     background-color: #8e5ab5;
     color: white;
-
     border-radius: 10px;
     cursor: pointer;
     list-style: none;
     font-weight: bold;
 }
 
-/* KOTAK MENU YANG MUNCUL */
+/* KOTAK ISI MENU */
 .isi-menu {
     margin-top: 20px;
     padding: 15px;
-
     background-color: #f3e8fa;
     border: 3px solid #c49bdd;
     border-radius: 15px;
 }
 
-/* NAMA + HARGA */
+/* ITEM MENU */
 .menu-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 
     padding: 12px;
     margin-bottom: 8px;
 
     background-color: white;
     border-radius: 8px;
-
     font-weight: bold;
+}
+
+/* ========================= */
+/* UNTUK HP */
+/* ========================= */
+
+@media (max-width: 800px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .kategori {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .menu-item {
+        font-size: 14px;
+    }
 }
