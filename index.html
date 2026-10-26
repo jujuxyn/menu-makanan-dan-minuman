@@ -3,67 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Menu Makanan & Minuman</title>
-
+    <title>Foodie Corner</title>
     <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
 
+    <!-- HEADER -->
+    <header>
+        <div class="logo">FOODIE<span>.</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+
     <!-- PEMBUKA -->
-    <section class="hero">
-        <p class="small-title">WELCOME TO OUR MENU</p>
+    <section class="home" id="home">
 
-        <h1>
-            MENU<br>
-            <span>MAKANAN & MINUMAN</span>
-        </h1>
+        <div class="home-text">
+            <p class="label">WELCOME TO FOODIE CORNER</p>
 
-        <p class="description">
-            Pilihan makanan dan minuman yang siap
-            menemani hari kamu.
-        </p>
+            <h1>
+                Enak,<br>
+                <span>simple,</span><br>
+                bikin nagih.
+            </h1>
 
-        <a href="#menu" class="button">Lihat Menu ↓</a>
+            <p>
+                Temukan berbagai pilihan makanan dan minuman
+                favorit kamu dalam satu tempat.
+            </p>
+
+            <a href="#menu" class="button">Lihat Menu</a>
+        </div>
+
+        <div class="food-icon">
+            🍔
+        </div>
+
     </section>
 
 
     <!-- MENU -->
-    <section class="menu-section" id="menu">
+    <section class="menu" id="menu">
 
-        <p class="small-title">OUR MENU</p>
+        <p class="label">OUR MENU</p>
 
-        <h2>Daftar Menu</h2>
+        <h2>Pilih favoritmu!</h2>
 
         <div class="menu-container">
 
             <!-- MAKANAN -->
-            <div class="menu-box makanan">
+            <div class="menu-card makanan">
 
-                <h3>🍔 Daftar Makanan</h3>
+                <div class="icon">🍔</div>
+
+                <h3>Daftar Makanan</h3>
+
+                <p>
+                    Makanan lezat untuk menemani
+                    hari kamu.
+                </p>
 
                 <details>
-                    <summary>KLIK UNTUK MELIHAT MENU</summary>
+                    <summary>Lihat Menu</summary>
 
-                    <div class="menu-list">
+                    <div class="list">
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Nasi Goreng</span>
                             <b>Rp15.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Ayam Geprek</span>
                             <b>Rp18.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Mie Goreng</span>
                             <b>Rp12.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Chicken Katsu</span>
                             <b>Rp20.000</b>
                         </div>
@@ -75,31 +101,38 @@
 
 
             <!-- MINUMAN -->
-            <div class="menu-box minuman">
+            <div class="menu-card minuman">
 
-                <h3>🥤 Daftar Minuman</h3>
+                <div class="icon">🥤</div>
+
+                <h3>Daftar Minuman</h3>
+
+                <p>
+                    Minuman segar yang cocok
+                    untuk menemani makananmu.
+                </p>
 
                 <details>
-                    <summary>KLIK UNTUK MELIHAT MENU</summary>
+                    <summary>Lihat Menu</summary>
 
-                    <div class="menu-list">
+                    <div class="list">
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Es Teh</span>
                             <b>Rp5.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Es Jeruk</span>
                             <b>Rp7.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Matcha Latte</span>
                             <b>Rp15.000</b>
                         </div>
 
-                        <div class="menu-item">
+                        <div class="item">
                             <span>Cokelat</span>
                             <b>Rp12.000</b>
                         </div>
@@ -114,42 +147,43 @@
     </section>
 
 
-    <!-- BAGIAN TENGAH -->
-    <section class="info-section">
+    <!-- ABOUT -->
+    <section class="about" id="about">
 
-        <p class="small-title">ENJOY YOUR MEAL</p>
+        <div>
+            <p class="label">ABOUT US</p>
 
-        <h2>
-            Makan enak,<br>
-            <span>mood enak.</span>
-        </h2>
+            <h2>
+                Makanan enak<br>
+                nggak harus ribet.
+            </h2>
 
-        <p>
-            Pilih makanan favorit kamu dan jangan lupa
-            pilih minuman yang cocok untuk menemani.
-        </p>
+            <p>
+                Foodie Corner menyediakan pilihan makanan
+                dan minuman yang cocok untuk dinikmati
+                kapan saja.
+            </p>
+        </div>
 
-    </section>
-
-
-    <!-- PENUTUP -->
-    <section class="footer">
-
-        <p class="small-title">THANK YOU ♡</p>
-
-        <h2>Selamat Menikmati!</h2>
-
-        <p>
-            Terima kasih sudah mengunjungi menu kami.
-        </p>
-
-        <a href="#" class="back">Back to top ↑</a>
-
-        <footer>
-            © 2026 — MENU MAKANAN & MINUMAN
-        </footer>
+        <div class="about-box">
+            <span>🍴</span>
+            <h3>Good Food</h3>
+            <p>Good Mood.</p>
+        </div>
 
     </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>See you again! 👋</h2>
+
+        <p>
+            © 2026 — FOODIE CORNER
+        </p>
+
+    </footer>
 
 </body>
 </html>
