@@ -9,68 +9,106 @@
 
 <body>
 
-    <!-- HEADER -->
+    <!-- NAVBAR -->
     <header>
-        <div class="logo">FOODIE<span>.</span></div>
+        <div class="logo">foodie<span>+</span></div>
 
         <nav>
             <a href="#home">Home</a>
+            <a href="#popular">Populer</a>
             <a href="#menu">Menu</a>
             <a href="#about">About</a>
         </nav>
     </header>
 
 
-    <!-- PEMBUKA -->
-    <section class="home" id="home">
+    <!-- HERO -->
+    <section class="hero" id="home">
 
-        <div class="home-text">
-            <p class="label">WELCOME TO FOODIE CORNER</p>
+        <div class="hero-text">
+            <p class="tag">FOOD • DRINK • GOOD MOOD</p>
 
             <h1>
-                Enak,<br>
-                <span>simple,</span><br>
-                bikin nagih.
+                Lagi laper?<br>
+                <span>Pilih aja.</span>
             </h1>
 
             <p>
-                Temukan berbagai pilihan makanan dan minuman
-                favorit kamu dalam satu tempat.
+                Makanan enak dan minuman segar
+                buat nemenin hari kamu.
             </p>
 
-            <a href="#menu" class="button">Lihat Menu</a>
+            <a href="#menu" class="button">Jelajahi Menu ↓</a>
         </div>
 
-        <div class="food-icon">
-            🍔
+        <div class="hero-card">
+            <span>🍜</span>
+            <h3>Today's Choice</h3>
+            <p>Nasi Goreng Special</p>
+            <b>Rp15.000</b>
         </div>
 
     </section>
 
 
-    <!-- MENU -->
+    <!-- MENU POPULER -->
+    <section class="popular" id="popular">
+
+        <p class="tag">FAVORITE</p>
+
+        <h2>Yang lagi populer 🔥</h2>
+
+        <div class="popular-container">
+
+            <div class="popular-card">
+                <span>🍗</span>
+                <div>
+                    <h3>Ayam Geprek</h3>
+                    <p>Rp18.000</p>
+                </div>
+            </div>
+
+            <div class="popular-card">
+                <span>🍵</span>
+                <div>
+                    <h3>Matcha Latte</h3>
+                    <p>Rp15.000</p>
+                </div>
+            </div>
+
+            <div class="popular-card">
+                <span>🍝</span>
+                <div>
+                    <h3>Mie Goreng</h3>
+                    <p>Rp12.000</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU LENGKAP -->
     <section class="menu" id="menu">
 
-        <p class="label">OUR MENU</p>
+        <p class="tag">OUR MENU</p>
 
-        <h2>Pilih favoritmu!</h2>
+        <h2>Mau makan atau minum?</h2>
 
         <div class="menu-container">
 
             <!-- MAKANAN -->
-            <div class="menu-card makanan">
+            <div class="menu-box food">
 
-                <div class="icon">🍔</div>
+                <div class="menu-icon">🍔</div>
 
                 <h3>Daftar Makanan</h3>
 
-                <p>
-                    Makanan lezat untuk menemani
-                    hari kamu.
-                </p>
+                <p>Pilih makanan favorit kamu.</p>
 
                 <details>
-                    <summary>Lihat Menu</summary>
+                    <summary>Lihat daftar</summary>
 
                     <div class="list">
 
@@ -101,19 +139,16 @@
 
 
             <!-- MINUMAN -->
-            <div class="menu-card minuman">
+            <div class="menu-box drink">
 
-                <div class="icon">🥤</div>
+                <div class="menu-icon">🥤</div>
 
                 <h3>Daftar Minuman</h3>
 
-                <p>
-                    Minuman segar yang cocok
-                    untuk menemani makananmu.
-                </p>
+                <p>Segarkan harimu dengan pilihan minuman.</p>
 
                 <details>
-                    <summary>Lihat Menu</summary>
+                    <summary>Lihat daftar</summary>
 
                     <div class="list">
 
@@ -150,25 +185,35 @@
     <!-- ABOUT -->
     <section class="about" id="about">
 
-        <div>
-            <p class="label">ABOUT US</p>
+        <div class="about-title">
+            <p class="tag">WHY US?</p>
 
             <h2>
-                Makanan enak<br>
-                nggak harus ribet.
+                Simple menu,<br>
+                happy tummy.
             </h2>
-
-            <p>
-                Foodie Corner menyediakan pilihan makanan
-                dan minuman yang cocok untuk dinikmati
-                kapan saja.
-            </p>
         </div>
 
-        <div class="about-box">
-            <span>🍴</span>
-            <h3>Good Food</h3>
-            <p>Good Mood.</p>
+        <div class="benefits">
+
+            <div>
+                <span>🍴</span>
+                <h3>Banyak Pilihan</h3>
+                <p>Ada makanan dan minuman untuk berbagai selera.</p>
+            </div>
+
+            <div>
+                <span>💸</span>
+                <h3>Harga Bersahabat</h3>
+                <p>Enak nggak harus bikin kantong kosong.</p>
+            </div>
+
+            <div>
+                <span>✨</span>
+                <h3>Good Mood</h3>
+                <p>Karena makanan enak bikin hari lebih menyenangkan.</p>
+            </div>
+
         </div>
 
     </section>
@@ -176,13 +221,9 @@
 
     <!-- FOOTER -->
     <footer>
+        <h2>See you at the next meal! 🍽️</h2>
 
-        <h2>See you again! 👋</h2>
-
-        <p>
-            © 2026 — FOODIE CORNER
-        </p>
-
+        <p>© 2026 — FOODIE CORNER</p>
     </footer>
 
 </body>
